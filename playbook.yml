@@ -1,0 +1,6 @@
+---
+- hosts: babar
+  sudo: yes
+  gather_facts: true
+  roles:
+    - babar

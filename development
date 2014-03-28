@@ -1,0 +1,5 @@
+[babar:children]
+development
+
+[development]
+vagrant@babar.local

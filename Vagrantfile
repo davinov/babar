@@ -32,5 +32,10 @@ Vagrant.configure("2") do |config|
     config.vm.synced_folder "api/", "/var/www/"+PROJECT_NAME+"-api/current", id: "api", type: "nfs"
     config.vm.synced_folder "frontend/", "/var/www/"+PROJECT_NAME+"-frontend/current", id: "frontend", type: "nfs"
 
+    config.vm.provision "ansible" do |ansible|
+      ansible.inventory_path = "development"
+      ansible.sudo = true
+      ansible.playbook = "playbook.yml"
+    end
   end
 end
