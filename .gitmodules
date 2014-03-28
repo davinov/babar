@@ -1,6 +1,6 @@
 [submodule "frontend"]
 	path = frontend
-	url = git://github.com/davinov/babar-frontend.git
+	url = git@github.com:davinov/babar-frontend.git
 [submodule "api"]
 	path = api
 	url = git@github.com:davinov/babar-api.git
