@@ -1,6 +1,8 @@
 # Babar
 Code that serves your drinking.
 
+[![Stories in To Do](https://badge.waffle.io/davinov/babar.png)](http://waffle.io/davinov/babar)
+
 ## Set up
 
 ### Set up the development server
