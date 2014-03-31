@@ -1,0 +1,8 @@
+---
+- name: install node and npm
+  apt: name={{item}} state=latest
+  with_items:
+  - nodejs
+  - npm
+  tags:
+  - packages
