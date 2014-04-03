@@ -1,9 +1,0 @@
----
-- name: install
-  apt: name=nginx state=latest update_cache=true
-  tags:
-  - packages
-
-- name: enable service
-  service: name=nginx enabled=yes
-  notify: restart-nginx
