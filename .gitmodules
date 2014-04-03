@@ -16,3 +16,6 @@
 [submodule "roles/mysql"]
 	path = roles/mysql
 	url = git://github.com/davinov/ansible-mysql.git
+[submodule "roles/nginx-main-conf"]
+	path = roles/nginx-main-conf
+	url = git://github.com/davinov/ansible-nginx-main-conf
