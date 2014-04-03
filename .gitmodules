@@ -4,3 +4,15 @@
 [submodule "api"]
 	path = api
 	url = git@github.com:davinov/babar-api.git
+[submodule "roles/nodejs"]
+	path = roles/nodejs
+	url = git://github.com/davinov/ansible-nodejs.git
+[submodule "roles/nginx"]
+	path = roles/nginx
+	url = git://github.com/davinov/ansible-nginx.git
+[submodule "roles/git"]
+	path = roles/git
+	url = git://github.com/davinov/ansible-git.git
+[submodule "roles/mysql"]
+	path = roles/mysql
+	url = git://github.com/davinov/ansible-mysql.git

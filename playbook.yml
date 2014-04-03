@@ -3,4 +3,5 @@
   sudo: yes
   gather_facts: true
   roles:
-    - babar
+    - git
+    - nginx-main-conf

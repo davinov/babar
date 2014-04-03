@@ -12,7 +12,7 @@
   notify: reload-nginx
 
 - name: add server main listener
-  template: src=etc/nginx/conf.d/babar.conf dest=/etc/nginx/conf.d/babar.conf
+  template: src=etc/nginx/conf.d/babar.conf dest=/etc/nginx/conf.d/main.conf
   notify: restart-nginx
 
 - name: nginx - update mime types
